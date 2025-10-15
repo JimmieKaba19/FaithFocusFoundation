@@ -6,16 +6,16 @@ Dynamic website for the NGO **FaithFocusFoundation** built with vanilla PHP. Fea
 
 ## Tech Stack
 
-| Component           | Technology                     |
-| ------------------- | ------------------------------ |
-| **Backend**         | PHP 8+ (vanilla)               |
-| **Frontend**        | HTML5, Bootstrap 5, JavaScript |
-| **Database**        | MySQL (PDO)                    |
-| **Email**           | PHPMailer                      |
-| **Config**          | phpdotenv                      |
-| **Server**          | LAMP (Apache)                  |
-| **Dependencies**    |                                |
-| **Version control** |                                |
+| Component           | Technology                                                       |
+| ------------------- | ---------------------------------------------------------------- |
+| **Backend**         | PHP 8+ (vanilla)                                                 |
+| **Frontend**        | HTML5, Bootstrap 5, JavaScript                                   |
+| **Database**        | MySQL (PDO)                                                      |
+| **Email**           | PHPMailer                                                        |
+| **Config**          | phpdotenv                                                        |
+| **Server**          | LAMP (Apache)                                                    |
+| **Dependencies**    | PHPMailer for email sending, phpdotenv for environment variables |
+| **Version control** | Git                                                              |
 
 ## Folder Structure
 
@@ -93,17 +93,6 @@ cp .env.example .env
 - CSRF tokens for forms
 - Password hashing
 - HTTPS enforced
-
-## Development Timeline
-
-| Phase           | Duration | Deliverables     |
-| --------------- | -------- | ---------------- |
-| 1. Setup        | 2-3 days | Project skeleton |
-| 2. Core         | 4-5 days | Routing + DB     |
-| 3. Static Pages | 3-4 days | Home/About       |
-| 4. Dynamic      | 5-7 days | Blog + Forms     |
-| 5. Admin        | 4-5 days | Secure dashboard |
-| 6. Deploy       | 3-5 days | Live site        |
 
 *Total: 4-6 weeks*
 
