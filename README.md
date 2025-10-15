@@ -4,7 +4,7 @@
 
 Dynamic website for the NGO **FaithFocusFoundation** built with vanilla PHP. Features include home page, about us, programs, blog (admin CRUD), donations, and secure contact forms. Simple, secure, and scalable.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component           | Technology                     |
 | ------------------- | ------------------------------ |
