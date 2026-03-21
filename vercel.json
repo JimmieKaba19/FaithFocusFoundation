@@ -1,6 +1,14 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/$1" }
-  ]
+  "headers": [
+    {
+      "source": "/(.*).html",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html"
+        }
+      ]
+    }
+  ],
+  "cleanUrls": true
 }
