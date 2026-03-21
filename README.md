@@ -102,4 +102,7 @@ cp .env.example .env
 2. Commit: `git commit -m "Add blog listing"`
 3. PR to `develop` branch
 
+### items to add
+1. add the users email in the contact submit form for redirection to client(form submit).
+
 *Built with ❤️ for FaithFocusFoundation | First updated: Oct 15, 2025*
