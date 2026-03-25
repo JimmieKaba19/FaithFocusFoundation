@@ -77,5 +77,3 @@ faithfocusfoundation/                    ← YOUR MAIN PROJECT FOLDER (root; ini
 ├── composer.lock                        ← Composer lock: Pins exact versions of dependencies for consistency.
 └── README.md                            ← Documentation: Project overview, setup instructions (as we created earlier).
 ```
-
-
